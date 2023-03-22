@@ -1,5 +1,4 @@
 # shaoyh-ui
-于 2023-3-22 号首次上传
 
 ## 组件库在线文档地址
 [shaoyh 组件库在线文档](http://ui.shaoyahu.com.cn/)
