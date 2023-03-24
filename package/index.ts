@@ -1,3 +1,4 @@
+import type { App } from 'vue'
 import YhFlipCard from './yh-flip-card/index.vue'
 import YhAnimateNavigation from './yh-animate-navigation/index.vue'
 import YhBlurryLoad from './yh-blurry-load/index.vue'
@@ -9,9 +10,9 @@ const coms = [YhFlipCard, YhAnimateNavigation, YhBlurryLoad, YhBoxesBackground, 
 
 const ShaoyhUI = {
     // 批量注册组件
-    install(App: any) {
-        coms.forEach((com: any) => {
-            App.component(com.name, com)
+    install(app: App) {
+        coms.forEach((com) => {
+            app.component(com.name, com)
         })
     }
 }

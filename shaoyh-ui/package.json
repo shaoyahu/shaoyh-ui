@@ -1,7 +1,7 @@
 {
   "name": "shaoyh-ui",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "适用于 vue 的有趣的组件库, 不是一些常用组件库中的组件",
   "main": "shaoyh-ui.js",
   "scripts": {
